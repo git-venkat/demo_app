@@ -7,6 +7,7 @@ gem 'rails', '4.1.1'
 group :development do
 	gem 'sqlite3', '1.3.9'
 	gem 'spring', '1.1.3'
+	gem 'pry-byebug'
 end
 
 group :production do
@@ -15,6 +16,7 @@ group :production do
 end
 
 gem 'sass-rails', '4.0.3'
+gem 'less-rails'
 gem 'uglifier', '2.5.0'
 gem 'coffee-rails', '4.0.1'
 gem 'therubyracer', '0.12.1', platforms: :ruby
